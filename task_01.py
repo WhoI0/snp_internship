@@ -7,5 +7,7 @@ def is_palindrome(string):
         string = string.replace(x, "").lower()
     if string == string[::-1]:
         return string == string[::-1]
+    else:
+        return False
 
-print(is_palindrome(333))
+print(is_palindrome("A man, a plan, a canal -- Panama"))
