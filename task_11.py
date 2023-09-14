@@ -1,5 +1,5 @@
 class Dessert:
-    def __init__(self, name = '', calories = 0):
+    def __init__(self, name='', calories=0):
         self._calories = calories
         self._name = name
 
@@ -23,9 +23,10 @@ class Dessert:
 
     def is_delicious(self):
         return True
-Puding = Dessert('Puding', 250)
+
+
+Pudding = Dessert('Pudding', 250)
 Pancake = Dessert('Pancake', 190)
-Jely= Dessert('Jely', 100)
+Jelly = Dessert('Jelly', 100)
 
-
-
+print(Pudding.get_name(), Pudding.get_calories(), Pudding.is_delicious())

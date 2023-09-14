@@ -1,5 +1,5 @@
 def coincidence(list, range):
-    if list == [] or range ==[]:
+    if list == [] or range == []:
         return []
     for element in list:
         try:
@@ -11,5 +11,3 @@ def coincidence(list, range):
 
 
 print(coincidence([None, 1, 'foo', 4, 2, 2.5], range(1, 4)))
-
-

@@ -8,5 +8,6 @@ def combine_anagrams(words_array):
         else:
             group[sorted_word] = [word]
     return list(group.values())
-print(combine_anagrams(["cat","pac","tac", "dog", "god", "act"]))
 
+
+print(combine_anagrams(["cat", "pac", "tac", "dog", "god", "act"]))

@@ -10,4 +10,5 @@ def is_palindrome(string):
     else:
         return False
 
+
 print(is_palindrome("A man, a plan, a canal -- Panama"))

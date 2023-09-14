@@ -6,11 +6,9 @@ def max_odd(array):
         if element % 2 == 0:
             continue
         else:
-           if element > odd_number:
-               odd_number = int(element)
+            if element > odd_number:
+                odd_number = int(element)
     print(odd_number)
 
 
 print(max_odd(['ololo', 2, 3, 4, [1, 2], None]))
-
-

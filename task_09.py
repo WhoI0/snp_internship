@@ -16,7 +16,5 @@ def connect_dicts(dict1, dict2):
             sorted_dict[key] = value
     return dict(sorted(sorted_dict.items(), key=lambda item: item[1]))
 
-print(connect_dicts({ "a": 2, "b": 12 }, { "c": 11, "e": 5 }))
 
-
-
+print(connect_dicts({"a": 2, "b": 12}, {"c": 11, "e": 5}))
