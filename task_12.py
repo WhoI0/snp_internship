@@ -20,9 +20,9 @@ class JellyBean(Dessert):
             return True
 
 
-GreenBean = JellyBean('GreenBean', 190, 'Grass')
-BlackBean = JellyBean('BlackBean', 185, 'black licorice')
-WhiteBean = JellyBean('WhiteBean', 215, 'Strawberry')
-print(GreenBean.get_name(), GreenBean.get_calories(), GreenBean.get_flavor(), GreenBean.is_delicious())
-print(BlackBean.get_name(), BlackBean.get_calories(), BlackBean.get_flavor(), BlackBean.is_delicious())
-print(WhiteBean.get_name(), WhiteBean.get_calories(), WhiteBean.get_flavor(), WhiteBean.is_delicious())
+# GreenBean = JellyBean('GreenBean', 190, 'Grass')
+# BlackBean = JellyBean('BlackBean', 185, 'black licorice')
+# WhiteBean = JellyBean('WhiteBean', 215, 'Strawberry')
+# print(GreenBean.get_name(), GreenBean.get_calories(), GreenBean.get_flavor(), GreenBean.is_delicious())
+# print(BlackBean.get_name(), BlackBean.get_calories(), BlackBean.get_flavor(), BlackBean.is_delicious())
+# print(WhiteBean.get_name(), WhiteBean.get_calories(), WhiteBean.get_flavor(), WhiteBean.is_delicious())

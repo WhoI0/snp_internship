@@ -10,4 +10,4 @@ def combine_anagrams(words_array):
     return list(group.values())
 
 
-print(combine_anagrams(["cat", "pac", "tac", "dog", "god", "act"]))
+# print(combine_anagrams(["cars", "for", "potatoes", "racs", "four", "scar", "creams", "scream"]))

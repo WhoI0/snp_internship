@@ -1,4 +1,4 @@
-def multiply_numbers(inputs):
+def multiply_numbers(inputs=[]):
     if type(inputs) != str:
         inputs = str(inputs)
     result = 1
@@ -8,4 +8,4 @@ def multiply_numbers(inputs):
     return result if result != 1 else None
 
 
-print(multiply_numbers([5, 6, 4]))
+# print(multiply_numbers([5, 6, 4]))

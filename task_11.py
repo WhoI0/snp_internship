@@ -25,8 +25,12 @@ class Dessert:
         return True
 
 
-Pudding = Dessert('Pudding', 250)
-Pancake = Dessert('Pancake', 190)
-Jelly = Dessert('Jelly', 100)
-
-print(Pudding.get_name(), Pudding.get_calories(), Pudding.is_delicious())
+#  Pudding = Dessert('Pudding', 300)
+#  Pancake = Dessert('Pancake', 190)
+#  Jelly = Dessert('Jelly', 100)
+#
+# print(Pudding.get_name(), Pudding.get_calories(), Pudding.is_healthy())
+#
+# dessert = Dessert()
+# dessert.set_calories(300)
+# print(dessert.is_healthy())

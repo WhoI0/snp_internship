@@ -8,7 +8,7 @@ def max_odd(array):
         else:
             if element > odd_number:
                 odd_number = int(element)
-    print(odd_number)
+    return odd_number if odd_number != 0 else None
 
 
-print(max_odd(['ololo', 2, 3, 4, [1, 2], None]))
+# print(max_odd([2, 2, 4]))

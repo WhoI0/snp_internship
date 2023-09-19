@@ -19,11 +19,11 @@ def rps_game_winner(players):
             (player1 == 'S' and player2 == 'P') or
             (player1 == 'P' and player2 == 'R')
     ):
-        return player1
+        return str(player1[0]) + ' ' + str(player1[1])
     if player1[1] == player2[1]:
-        return player1
+        return str(player1[0]) + ' ' + str(player1[1])
     else:
-        return player2
+        return str(player2[0]) + ' ' + str(player2[1])
 
 
-print(rps_game_winner([["player1", "P"], ["player2", "P"]]))
+# print(rps_game_winner([['player1', 'P'], ['player2', 'S']]))

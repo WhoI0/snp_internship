@@ -11,4 +11,4 @@ def is_palindrome(string):
         return False
 
 
-print(is_palindrome("A man, a plan, a canal -- Panama"))
+# print(is_palindrome("Abracadabra"))
