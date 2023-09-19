@@ -12,4 +12,4 @@ def sort_list(array):
     return array
 
 
-print(sort_list([1]))
+# print(sort_list([1]))

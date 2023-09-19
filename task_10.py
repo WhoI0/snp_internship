@@ -9,4 +9,4 @@ def count_words(string):
     return words_with_count
 
 
-print(count_words("A man, a plan, a canal -- Panama"))
+# print(count_words("A man, a plan, a canal -- Panama"))
