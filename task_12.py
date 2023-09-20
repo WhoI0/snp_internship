@@ -5,16 +5,16 @@ class JellyBean(Dessert):
 
     def __init__(self, name='', calories=0, flavor=''):
         super().__init__(name, calories)
-        self._flavor = flavor
+        self.flavor = flavor
 
     def get_flavor(self):
-        return self._flavor
+        return self.flavor
 
     def set_flavor(self, flavor):
-        self._flavor = flavor
+        self.flavor = flavor
 
     def is_delicious(self):
-        if self._flavor == 'black licorice':
+        if self.flavor == 'black licorice':
             return False
         else:
             return True
