@@ -1,29 +1,34 @@
 class Dessert:
-    def __init__(self, name='', calories=0):
-        self.calories = calories
-        self.name = name
+    def __init__(self):
+        self._calories = 0
+        self._name = ''
 
-    def get_name(self):
-        return self.name
+    @property
+    def name(self):
+        return self._name
 
-    def get_calories(self):
-        return self.calories
+    @property
+    def calories(self):
+        return self._calories
 
-    def set_name(self, name):
-        self.name = name
+    @name.setter
+    def name(self, name):
+        self._name = name
 
-    def set_calories(self, calories):
-        self.calories = calories
+    @calories.setter
+    def calories(self, calories):
+        if type(calories) != int:
+            raise ValueError('Калории должны быть числом')
+        self._calories = calories
 
     def is_healthy(self):
-        if self.calories < 200:
+        if self._calories < 200:
             return True
         else:
             return False
 
     def is_delicious(self):
         return True
-
 
 #  Pudding = Dessert('Pudding', 300)
 #  Pancake = Dessert('Pancake', 190)
